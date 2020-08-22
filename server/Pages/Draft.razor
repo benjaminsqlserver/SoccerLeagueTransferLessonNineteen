@@ -1,0 +1,19 @@
+﻿@page "/draft"
+@layout MainLayout
+@inherits SoccerLeagueTransferApp.Pages.DraftComponent
+
+@using Radzen
+@using Radzen.Blazor
+@using SoccerLeagueTransferApp.Models.ConData
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Draft">
+    </RadzenHeading>
+    <div class="row">
+      <div class="col-md-12">
+        <RadzenButton Text="Forgot Password? Click Me." Click="@BtnForgotClick">
+        </RadzenButton>
+      </div>
+    </div>
+  </ChildContent>
+</RadzenContent>

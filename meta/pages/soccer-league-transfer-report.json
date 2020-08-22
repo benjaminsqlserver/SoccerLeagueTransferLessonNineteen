@@ -1,0 +1,41 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Soccer League Transfer Report",
+          "type": "heading"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-12",
+              "components": [
+                {
+                  "name": "ssrsviewer0",
+                  "reportName": "SoccerLeagueTransferReport",
+                  "reportServer": "http://localhost/reportserver",
+                  "style": {
+                    "height": "638.6000366210938px"
+                  },
+                  "type": "ssrsviewer"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Main",
+  "name": "SoccerLeagueTransferReport"
+}

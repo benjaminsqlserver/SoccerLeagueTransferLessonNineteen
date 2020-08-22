@@ -1,0 +1,27 @@
+{
+  "access": [],
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Sign Out",
+          "type": "heading"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "code": "await LogOut();",
+        "type": "execute"
+      }
+    ]
+  },
+  "layout": "Main",
+  "name": "Sign Out"
+}
